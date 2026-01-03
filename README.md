@@ -18,9 +18,31 @@ Guards interact through a **Hindi-first interface with voice input**, while RWAs
 ---
 
 ## 🏗️ Project Structure
-society-guard-entry-bot/ ├── frontend/        # Streamlit/Flutter UI │   ├── streamlit_app.py │   ├── correction_ui.py ├── backend/         # Voice capture, STT, parser, notifier, reports │   ├── voice_capture.py │   ├── stt_engine.py │   ├── parser.py │   ├── notifier.py │   ├── reports.py ├── database/        # Google Sheets / Firebase connectors │   ├── sheets_api.py │   ├── firebase_api.py ├── dashboard/       # RWA dashboard │   ├── rwa_dashboard.py ├── config/          # Settings & API keys │   ├── settings.yaml └── README.md        # Project documentation
-
-
+```
+society-guard-entry-bot/
+├── frontend/                # Streamlit / Flutter UI
+│   ├── streamlit_app.py
+│   └── correction_ui.py
+│
+├── backend/                 # Voice capture, STT, parser, notifier, reports
+│   ├── voice_capture.py
+│   ├── stt_engine.py
+│   ├── parser.py
+│   ├── notifier.py
+│   └── reports.py
+│
+├── database/                # Google Sheets / Firebase connectors
+│   ├── sheets_api.py
+│   └── firebase_api.py
+│
+├── dashboard/               # RWA dashboard
+│   └── rwa_dashboard.py
+│
+├── config/                  # Settings & API keys
+│   └── settings.yaml
+│
+└── README.md                # Project documentation
+```
 
 ---
 
